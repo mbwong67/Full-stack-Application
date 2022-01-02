@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 //model schema
 const GardenTip = require('../db/schema');
-//new routes including delete
+//Full CRUD - new routes including delete
 
 //get data index.hbs route
 router.get('/', (req, res) => {
@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
 router.get('/new', (req, res) => {
   res.render('new');
 });
-//post handler to create a new item and return to index.hs
+//post handler to create a new item and return to index.hbs
 router.post('/', (req, res) => {
   GardenTip.create(req.body).then(GardenTips => {
     res.redirect('/');

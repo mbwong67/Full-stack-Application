@@ -15,3 +15,13 @@ Bronze: Creating an application where users can bookmark the garden tip links th
 Silver: Create way to query on data. Search bar.
 
 Gold: Create user logins and user upload of pictures. 
+
+## Project Requirements
+
+1. The API must be built using Express, Handlebars, and Mongoose.
+
+2. The API must have one non-user model.
+
+3. The API must have full CRUD functionality and be RESTful.
+
+4. The API must be deployed on Heroku.

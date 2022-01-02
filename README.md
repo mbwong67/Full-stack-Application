@@ -25,3 +25,6 @@ Gold: Create user logins and user upload of pictures.
 3. The API must have full CRUD functionality and be RESTful.
 
 4. The API must be deployed on Heroku.
+
+### Link to viedo of working application
+https://player.vimeo.com/video/367193761

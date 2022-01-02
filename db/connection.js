@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === "production") {
   mongoURI = 'mongodb://localhost/gardentips';
 }
 mongoose
-  .connect(mongoURI, { useNewUrlParser: true })
+  .connect(mongoURI, { useUnifiedTopology: true })
   .then(instance =>
     console.log(`Connected to db: ${instance.connections[0].name}`)
   )

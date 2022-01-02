@@ -1,4 +1,4 @@
-# Full-stack-Application
+# Full-Stack-Application
 
 Gardener Bookmarks Api
 
@@ -8,6 +8,10 @@ The links can be to plant catalogs, how tos, personal garden photos shared on th
 
 Content is up to the user we just ask that you keep things garden related.
 
-## Project Milestones
+Project Milestones
+------------------
+Bronze: Creating an application where users can bookmark the garden tip links they want to share. 
 
-Bronze: Creating an application where users can bookmark the garden tip links the want to share.
+Silver: Create way to query on data. Search bar.
+
+Gold: Create user logins and user upload of pictures. 

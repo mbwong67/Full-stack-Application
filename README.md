@@ -2,7 +2,7 @@
 
 Gardener Bookmarks API
 
-This Api provides avid gardeners a way to share links to sites they find interesting and informative.
+This API provides avid gardeners with a way to share links to sites they find interesting and informative.
 
 The links can be to plant catalogs, how-tos, personal garden photos shared on the web, etc.
 
